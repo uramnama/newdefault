@@ -5,6 +5,7 @@ theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -12,13 +13,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+    weight = 1
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/rstudio/blogdown"
+    weight = 3
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/rstudio"
-
+    weight = 4
+[[menu.main]]
+    name = "Miami Tings"
+    url = "http://miamioh.edu/index.html"
+    weight = 2
 [params]
     description = "A website built through Hugo and blogdown."
 
@@ -32,7 +39,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.5"
 
     [params.logo]
-    url = "logo.png"
+    url = "eritrea_logo.png"
     width = 50
     height = 50
     alt = "Logo"
