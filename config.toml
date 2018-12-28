@@ -6,6 +6,7 @@ googleAnalytics = "UA-131462153-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 enableEmoji = true
+uglyurls = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"

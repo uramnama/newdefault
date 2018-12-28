@@ -22,7 +22,7 @@ GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyt
 
 ---
 ### Han KjØbenhavn
-![](/pumalogo.png)
+![Pumalogo](/pumalogo.png)
 
 * [PUMA x HAN KJØBENHAVN Trailfox Disc Sneakers] (https://us.puma.com/en/us/pd/puma-x-han-kj%C3%B8benhavn-trailfox-disc-sneakers/367313.html?dwvar_367313_color=Puma%20White-Whisper%20White) listed by PUMA
 
