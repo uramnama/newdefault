@@ -3,8 +3,8 @@ title: "Things I like"
 date: '2018-12-28'
 ---
 
-# Lets start off with a list of some :fire: shoes
-![Ballingallday](bballlogo.png)
+# Lets start off with a list of some fire shoes
+![Ballingallday](/bballlogo.png)
 
 ---
 
@@ -30,9 +30,9 @@ GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyt
 
 * [PUMA Select Men's x Han Kjobenhavn Tsugi Kori Sneakers] (https://www.amazon.com/PUMA-Select-Kjobenhavn-Tsugi-Sneakers/dp/B06Y3M29ND/ref=cts_sh_2_vtp?th=1&psc=1) listed by AMAZON
 
----
+----------------------------------------
 
-### Hypebeasts
+### 
 ![hypebeastlogo](/HypebeastLogo.png)
 
 * [Nike LeBron 16 "SB"] (https://hypebeast.com/2018/12/the-lebron-16-sb-lakers-vs-warriors-game-release) listed by HYPEBEAST

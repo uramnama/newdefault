@@ -6,7 +6,6 @@ googleAnalytics = "UA-131462153-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 enableEmoji = true
-uglyurls = true
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
@@ -28,7 +27,7 @@ uglyurls = true
     url = "http://miamioh.edu/index.html"
     weight = 2
 [[menu.main]]
-    name = "Coolness"
+    name = "CoolStuff"
     url = "/coolness/"
     weight = 1
 [params]
