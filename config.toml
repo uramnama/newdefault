@@ -28,8 +28,8 @@ uglyurls = true
     url = "http://miamioh.edu/index.html"
     weight = 2
 [[menu.main]]
-    name = "Links"
-    url = "Links/"
+    name = "Coolness"
+    url = "/coolness/"
     weight = 1
 [params]
     description = "A website built through Hugo and blogdown."

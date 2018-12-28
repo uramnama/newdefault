@@ -1,9 +1,9 @@
 ---
-title: "Links"
+title: "Things I like"
 date: '2018-12-28'
-type: "about"
 ---
-# Cool Shoes
+
+# Lets start off with a list of some :fire: shoes
 ![Ballingallday](bballlogo.png)
 
 ---
