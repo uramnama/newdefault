@@ -1,6 +1,7 @@
 ---
 title: "Links"
 date: '2018-12-28'
+type: "about"
 ---
 # Cool Shoes
 ![Balling all day](bballlogo.png)

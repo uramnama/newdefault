@@ -28,7 +28,7 @@ enableEmoji = true
     weight = 2
 [[menu.main]]
     name = "Links"
-    url = "/Links/"
+    url = "Links/"
     weight = 1
 [params]
     description = "A website built through Hugo and blogdown."
@@ -47,11 +47,4 @@ enableEmoji = true
     width = 50
     height = 50
     alt = "Logo"
-    
-    [params.logo]
-    url = "kithlogo.png"
-    width = 50
-    height = 50
-    alt = "we did it"
-    
 
