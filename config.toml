@@ -47,4 +47,10 @@ enableEmoji = true
     width = 50
     height = 50
     alt = "Logo"
+    
+    [params.logo]
+    url = "HypebeastLogo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
 
