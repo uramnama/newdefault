@@ -49,8 +49,9 @@ enableEmoji = true
     alt = "Logo"
     
     [params.logo]
-    url = "HypebeastLogo.png"
+    url = "kithlogo.png"
     width = 50
     height = 50
-    alt = "Logo"
+    alt = "kithlogo"
+    
 
