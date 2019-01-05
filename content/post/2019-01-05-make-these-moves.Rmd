@@ -10,6 +10,6 @@ tags: []
 ![](https://media.giphy.com/media/xTiN0MIU7OCSHEGfHa/giphy.gif)
 
 #Esusu
-![](https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/873306/Esusu_20Logo_20_2_.png)
+<img src="https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/873306/Esusu_20Logo_20_2_.png",width="15",height="15"/>
 
 https://afrotech.com/esusu-is-innovating-an-ancient-african-saving-method
