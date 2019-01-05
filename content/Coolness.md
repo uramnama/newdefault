@@ -5,12 +5,12 @@ date: '2018-12-28'
 ---
 
 ### Lets start off with a list of some fire shoes
-![Ballingallday](/bballlogo.png)
+![Ballingallday](/img/bballlogo.png)
 
 ---
 
 ### Ronnie Fieg
-<img src="/kithlogo.png" alt="wedidit" width="300" height="160"/>
+<img src="/img/kithlogo.png" alt="wedidit" width="300" height="160"/>
 
 * [ASICS WMNS GEL PTG
 WHITE / GUM] (https://kith.com/collections/asics/products/asics-wmns-gel-ptg-white-gum) listed by KITH NYC
@@ -23,7 +23,7 @@ GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyt
 
 ---
 ### Han KjØbenhavn
-![Pumalogo](/pumalogo.png)
+![Pumalogo](/img/pumalogo.png)
 
 * [PUMA x HAN KJØBENHAVN Trailfox Disc Sneakers] (https://us.puma.com/en/us/pd/puma-x-han-kj%C3%B8benhavn-trailfox-disc-sneakers/367313.html?dwvar_367313_color=Puma%20White-Whisper%20White) listed by PUMA
 
@@ -34,7 +34,7 @@ GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyt
 ----------------------------------------
 
 ### 
-![hypebeastlogo](/HypebeastLogo.png)
+![hypebeastlogo](/img/HypebeastLogo.png)
 
 * [Nike LeBron 16 "SB"] (https://hypebeast.com/2018/12/the-lebron-16-sb-lakers-vs-warriors-game-release) listed by HYPEBEAST
 
