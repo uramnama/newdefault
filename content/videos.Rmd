@@ -37,7 +37,7 @@ knitr::include_url("https://www.youtube.com/watch?v=byQrdnq7_H0")
 
 ```
 
-##Grow Your Own **Food!!**
+##Grow Your Own Food!!
 ```{r vid,echo=FALSE}
 
 knitr::include_url("https://www.youtube.com/watch?v=EzZzZ_qpZ4w")
