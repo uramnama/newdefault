@@ -9,11 +9,37 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
-```{r vid}
+##Awesome Time Lapse Video of Ocean Sunrise to Sunset
+```{r vid,echo=FALSE}
 
 knitr::include_url("https://www.youtube.com/embed/2L515SmPbRw")
 
 ```
 
+##Nipsey Inspiration
+```{r vid,echo=FALSE}
 
+knitr::include_url("https://www.youtube.com/watch?v=t9lAf5xNOrU")
+
+```
+
+##Boston Dynamics Robots
+```{r vid,echo=FALSE}
+
+knitr::include_url("https://www.youtube.com/watch?v=byQrdnq7_H0")
+
+```
+
+##Alan Watts Gem
+```{r vid,echo=FALSE}
+
+knitr::include_url("https://www.youtube.com/watch?v=byQrdnq7_H0")
+
+```
+
+##Grow Your Own **Food!!**
+```{r vid,echo=FALSE}
+
+knitr::include_url("https://www.youtube.com/watch?v=EzZzZ_qpZ4w")
+
+```
