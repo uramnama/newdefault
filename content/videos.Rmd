@@ -43,7 +43,6 @@ blogdown::shortcode("youtube","EzZzZ_qpZ4w")
 
 ```
 
-##gifs
-
-![](http://i.imgur.com/60bts.gif)
+##This is just the start
+![](https://media.giphy.com/media/3o8dFqr95PuH4j1Hos/giphy.gif)
 
