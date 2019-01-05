@@ -4,12 +4,12 @@ author: ''
 date: '2018-12-28'
 ---
 
-# Lets start off with a list of some fire shoes
-![Ballingallday](bballlogo.png)
+### Lets start off with a list of some fire shoes
+![Ballingallday](/bballlogo.png)
 
 ---
 
-# Ronnie Fieg
+### Ronnie Fieg
 <img src="/kithlogo.png" alt="wedidit" width="300" height="160"/>
 
 * [ASICS WMNS GEL PTG
