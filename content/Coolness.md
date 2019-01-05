@@ -1,10 +1,11 @@
 ---
-title: "Things I like"
+title: Things I like
+author: ''
 date: '2018-12-28'
 ---
 
 # Lets start off with a list of some fire shoes
-![Ballingallday](/bballlogo.png)
+![Ballingallday](bballlogo.png)
 
 ---
 
