@@ -3,6 +3,23 @@ title: Blogs
 author: Aman Maru
 date: '2019-01-04'
 slug: blogs
-categories: []
+categories: ['R']
 tags: []
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+#Housing Data
+
+This is a review of housing data I pulled from <https://www.kaggle.com/gpandi007/usa-housing-dataset/version/1>
+
+Lets start off by getting a brief summary on the housing data:
+```{r smry}
+housing <- read.csv('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv')
+housing.filt = housing %>% select(Id:Neighborhood)
+summary(housing.filt)
+
+```
+
