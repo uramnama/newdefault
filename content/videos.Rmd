@@ -42,3 +42,8 @@ blogdown::shortcode("youtube","byQrdnq7_H0")
 blogdown::shortcode("youtube","EzZzZ_qpZ4w")
 
 ```
+
+##gifs
+
+![](http://i.imgur.com/60bts.gif)
+

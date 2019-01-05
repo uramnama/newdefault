@@ -32,11 +32,23 @@ ggplot(housing.filt) + geom_col(aes(Neighborhood,LotArea,fill=LotConfig)) + coor
 
 #Housing Details
 
-This graph compares the area of houses and the frontage (width) of houses by the land contour
-```{r point}
+This graph compares the area of houses and the frontage (width) of houses by the lands shape
+```{r point,echo=FALSE,warning=FALSE}
 library(dplyr)
-housing.filt %>% ggplot() + geom_point(aes(LotFrontage,LotArea,color=LotShape))
-  theme_tufte()
+library(ggplot2)
+library(ggthemes)
+ggplot(housing.filt) + geom_point(aes(LotFrontage,LotArea,color=LotShape)) + theme_tufte()
+```
+
+#animatetest
+
+```{r animate, echo=FALSE,warning=FALSE}
+library(gganimate)
+library(gapminder)
+
+a = head(gapminder,35)
+ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country)) +
+  transition_states(transition_length = 10,state_length = 10,states = country)
 
 ```
 
