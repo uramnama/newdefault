@@ -33,7 +33,6 @@ ggplot(housing.filt) + geom_col(aes(Neighborhood,LotArea,fill=LotConfig)) + coor
 ---
 
 #Files
-`r fa("download", fill = "#ee5863")` 
 ```{r echo = FALSE} 
 xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv')
 
