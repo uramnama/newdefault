@@ -26,8 +26,9 @@ summary(housing.filt)
 
 #Below you will see a beautiful bar chart
 ```{r}
-ggplot(housing.filt) + geom_bar(aes(Neighborhood,fill=LotConfig)) + coord_flip()
+ggplot(housing.filt) + geom_col(aes(Neighborhood,LotArea,fill=LotConfig)) + coord_flip()
 
 ```
+
 
 

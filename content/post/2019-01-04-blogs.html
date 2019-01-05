@@ -52,6 +52,6 @@ summary(housing.filt)
 </div>
 <div id="below-you-will-see-a-beautiful-bar-chart" class="section level1">
 <h1>Below you will see a beautiful bar chart</h1>
-<pre class="r"><code>ggplot(housing.filt) + geom_bar(aes(Neighborhood,fill=LotConfig)) + coord_flip()</code></pre>
+<pre class="r"><code>ggplot(housing.filt) + geom_col(aes(Neighborhood,LotArea,fill=LotConfig)) + coord_flip()</code></pre>
 <p><img src="/post/2019-01-04-blogs_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 </div>
