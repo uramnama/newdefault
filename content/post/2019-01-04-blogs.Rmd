@@ -4,7 +4,7 @@ author: Aman Maru
 date: '2019-01-04'
 slug: blogs
 categories: ['R']
-tags: []
+tags: ["R Markdown", "plot"]
 ---
 
 ```{r setup, include=FALSE}
@@ -30,11 +30,21 @@ ggplot(housing.filt) + geom_col(aes(Neighborhood,LotArea,fill=LotConfig)) + coor
 
 ```
 
+#Housing Details
+
+This graph compares the area of houses and the frontage (width) of houses by the land contour
+```{r point}
+library(dplyr)
+housing.filt %>% ggplot() + geom_point(aes(LotFrontage,LotArea,color=LotShape))
+  theme_tufte()
+
+```
+
+
 ---
 
 #Files
 
-`r fa("Download",fill="red")`
 ```{r echo = FALSE} 
 xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv')
 
