@@ -30,7 +30,7 @@ code {
 }
 
 .wrapper {
-  overflow: visible;
+  overflow: hidden;
   position: relative;
 }
 
