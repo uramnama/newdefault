@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  background-color:#E6E6FA;
 }
 
 body {
@@ -94,6 +95,7 @@ code {
   font-size: 16px;
   line-height: 1.7;
   color: #333;
+  
 }
 
 .article-title {
@@ -101,6 +103,7 @@ code {
   color: #222;
   margin: 0;
   line-height: 1.3;
+  
 }
 
 .article-date {
@@ -115,11 +118,13 @@ code {
   font-weight: bold;
   border-radius: 3px;
   background: #bbb;
-  color: #fff
+  color: #fff;
+  
 }
 
 .article-content p {
   margin: 15px 0 25px;
+  
 }
 
 .article-content a {
@@ -133,7 +138,7 @@ code {
 
 .article-content a:hover,
 .article-content a:focus {
-  background: #CBF8DF;
+  background: #33FFFF;
 }
 
 .article-content hr {
@@ -142,7 +147,7 @@ code {
   height: 1px;
   overflow: hidden;
   border: none;
-  background: #e5e5e5;
+  background: #33FFFF;
 }
 
 .highlight {
@@ -190,7 +195,7 @@ code {
   font-weight: bold;
   color: #222;
   padding: 5px 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1.5px solid  #33FFFF;
 }
 
 .archive-item-link:hover {
