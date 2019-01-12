@@ -1,4 +1,4 @@
-baseurl = "https://aboutfreakingtime.netlify.com/"
+baseurl = "https://maru.netlify.com/"
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium"
@@ -23,17 +23,13 @@ enableEmoji = true
     url = "https://twitter.com/rstudio"
     weight = 4
 [[menu.main]]
-    name = "Miami Tings"
-    url = "http://miamioh.edu/index.html"
-    weight = 2
-[[menu.main]]
     name = "CoolStuff"
     url = "/coolness/"
     weight = 1
 [[menu.main]]
     name = "Videos"
     url = "/videos/"
-    weight = 6
+    weight = 2
 [params]
     description = "A website built through Hugo and blogdown."
 
@@ -47,7 +43,7 @@ enableEmoji = true
     MathJaxVersion = "2.7.5"
 
     [params.logo]
-    url = "eritrea_logo.png"
+    url = "maru.png"
     width = 50
     height = 50
     alt = "Logo"
