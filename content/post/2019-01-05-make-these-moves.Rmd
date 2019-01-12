@@ -7,8 +7,6 @@ categories: []
 tags: []
 ---
 
-![](https://media.giphy.com/media/xTiN0MIU7OCSHEGfHa/giphy.gif)
-
 ***
 
 #<img src="https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/873306/Esusu_20Logo_20_2_.png",width="45" height="45"/>
@@ -19,8 +17,4 @@ This app is really cool because I have first hand experience in this being a fir
 “When immigrants move to America they continue to participate in this economic system, but there is no data captured or record of this system” said Goel.
 
 
-Check out this amazing story list on Afrotech (https://afrotech.com/esusu-is-innovating-an-ancient-african-saving-method,target="_blank")
-
-***
-
-#<img src="https://gust-production.s3.amazonaws.com/uploads/startup/panoramic_image/873306/Esusu_20Logo_20_2_.png",width="45" height="45"/>
+[Check out this amazing story](https://afrotech.com/esusu-is-innovating-an-ancient-african-saving-method) listed on Afrotech
