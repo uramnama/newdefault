@@ -42,14 +42,14 @@ ggplot(housing.filt) + geom_point(aes(LotFrontage,LotArea,color=LotShape)) + the
 
 #animatetest
 
-```{r animate, echo=FALSE,warning=FALSE}
+```{r animated, echo=FALSE,warning=FALSE}
 library(gganimate)
 library(gapminder)
 library(ggthemes)
 a = head(gapminder,35)
 options(scipen = 999)
-ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country)) +
-  transition_time(year) + labs(title = 'year: {frame_time}') + theme_bw() + facet_wrap(~country)
+ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country))  + facet_wrap(~country) +
+  transition_time(year) + labs(title = 'year: {frame_time}') + theme_bw()
 
 ```
 
