@@ -1,0 +1,62 @@
+---
+title: My Webscraping
+author: ''
+date: '2019-01-14'
+slug: my-webscraping
+categories: []
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#Top 100 Movies in 2018
+```{r scrape,echo=FALSE,warning=FALSE,error=FALSE,message=FALSE}
+library(rvest)
+library(purrr)
+library(ggplot2)
+imdb <- read_html("https://www.imdb.com/list/ls047677021/?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=c1b9c916-c897-45a2-b228-0013b5e4ff8d&pf_rd_r=MEC6TYJ6WCGN49K99VA7&pf_rd_s=right-1&pf_rd_t=60601&pf_rd_i=best-of&ref_=fea_bo16_bo16_lk9")
+imdb_100 <- 
+  imdb %>%
+  html_nodes(".text-primary") %>%
+  html_text() %>% as.numeric()
+
+imdb_titles <- html_nodes(imdb,'.lister-item-header a')
+imdb_title_data <- html_text(imdb_titles)
+
+imdb_desc_runtime <- html_nodes(imdb,".runtime")
+imdb_runtime_data <- html_text(imdb_desc_runtime)
+imdb_runtime_data <- gsub(" min","",imdb_runtime_data)
+imdb_runtime_data <- as.numeric(imdb_runtime_data)
+
+imdb_genre_html = html_nodes(imdb,".genre")
+genre_data = html_text(imdb_genre_html)
+genre_data = gsub("\n","",genre_data)
+genre_data = gsub(" ","",genre_data)
+genre_data = gsub(",.*","",genre_data)
+genre_data = as.factor(genre_data)
+
+ratings18 <- html_nodes(imdb,".ipl-rating-star.small .ipl-rating-star__rating")
+ratings18_data <- html_text(ratings18) 
+ratings18_data <- as.numeric(ratings18_data)
+votes <- html_nodes(imdb,".text-muted+ span:nth-child(2)")
+votes_data <- html_text(votes)
+votes_data <- gsub(",","",votes_data)
+votes_data <- as.numeric(votes_data)
+votes_data <- gsub("NA","",votes_data)
+votes_data <- votes_data[4:103]
+votes_data <- as.numeric(votes_data)
+imdb_top2018 <- data.frame(Title = imdb_title_data,RunTime = imdb_runtime_data,Genre=genre_data,Rating = ratings18_data,Votes=votes_data)
+
+ggplot(imdb_top2018,aes(RunTime,Rating)) + geom_point(aes(size=Votes,col=Genre))
+
+```
+
+#Top 100 Movies Summary
+```{r summary,echo=FALSE,warning=FALSE,error=FALSE,message=FALSE}
+knitr::kable(imdb_top2018)
+
+
+```
