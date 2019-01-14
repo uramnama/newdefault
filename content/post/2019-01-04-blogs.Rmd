@@ -46,8 +46,9 @@ ggplot(housing.filt) + geom_point(aes(LotFrontage,LotArea,color=LotShape)) + the
 library(gganimate)
 library(gapminder)
 a = head(gapminder,35)
+options(scipen = 999)
 ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country)) +
-  transition_states(transition_length = 10,state_length = 10,states = country)
+  transition_time(year) + labs(title = 'year: {frame_time}') + theme_bw() + facet_wrap(~country)
 
 ```
 
