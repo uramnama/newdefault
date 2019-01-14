@@ -56,7 +56,7 @@ ggplot(imdb_top2018,aes(RunTime,Rating)) + geom_point(aes(size=Votes,col=Genre))
 
 #Top 100 Movies Summary
 ```{r summary,echo=FALSE,warning=FALSE,error=FALSE,message=FALSE}
-knitr::kable(imdb_top2018)
+DT::datatable(imdb_top2018)
 
 
 ```
