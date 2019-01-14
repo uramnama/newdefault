@@ -45,6 +45,7 @@ ggplot(housing.filt) + geom_point(aes(LotFrontage,LotArea,color=LotShape)) + the
 ```{r animate, echo=FALSE,warning=FALSE}
 library(gganimate)
 library(gapminder)
+library(ggthemes)
 a = head(gapminder,35)
 options(scipen = 999)
 ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country)) +
