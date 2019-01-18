@@ -16,7 +16,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 This is a review of housing data I pulled from <https://www.kaggle.com/gpandi007/usa-housing-dataset/version/1>
 
 #Lets start off by getting a brief summary on the housing data:
-```{r sumry}
+```{r sumry,echo=FALSE,warning=FALSE}
 library(tidyverse)
 housing <- read.csv('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv')
 housing.filt = housing %>% select(Id:Neighborhood)
@@ -59,8 +59,7 @@ ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country))  + facet_
 #Files
 
 ```{r echo = FALSE} 
-xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv')
-
+xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv',"download Housing Data")
 ```
 
 ---

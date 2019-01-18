@@ -19,7 +19,7 @@ WHITE / GUM] (https://kith.com/collections/asics/products/asics-wmns-gel-ptg-whi
 BLACK / CARBON] (https://kith.com/collections/asics/products/asics-gel-lyte-mt-gtx-black-carbon) listed by KITH NYC
 
 * [ASICS X ATMOS GEL-LYTE III
-GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyte-iii-glacier-grey,target="_blank") listed by KITH NYC
+GLACIER GREY] (https://kith.com/collections/asics/products/asics-x-atmos-gel-lyte-iii-glacier-grey) listed by KITH NYC
 
 ---
 ### Han KjØbenhavn
