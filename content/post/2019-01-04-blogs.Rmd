@@ -59,7 +59,7 @@ ggplot(a) + geom_point(aes(gdpPercap,lifeExp,size=pop,colour=country))  + facet_
 #Files
 
 ```{r echo = FALSE} 
-xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv',"download Housing Data")
+xfun::embed_file('C:/Users/maruaz/Documents/Projects/R_blogdown_projects/newdefault/newdefault/static/post/housingtest.csv',"Housing Dataset")
 ```
 
 ---
