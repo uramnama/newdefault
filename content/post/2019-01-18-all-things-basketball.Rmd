@@ -1,0 +1,44 @@
+---
+title: All things Basketball
+author: ''
+date: '2019-01-18'
+slug: all-things-basketball
+categories:
+  - R
+tags:
+  - plot
+  - R Markdown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Top 40 NBA Scorers in 
+**2018-2019**
+```{r scorers,echo=FALSE,warning=FALSE,error=FALSE,message=FALSE}
+library(rvest)
+library(purrr)
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+url <- "http://www.espn.com/nba/statistics/player/_/stat/scoring-per-game/sort/avgPoints/year/2019/seasontype/2"
+webpage <- read_html(url)
+score_tbl = webpage %>% html_table(header = T)
+score_table = score_tbl %>% as.data.frame()
+score_table = score_table[-c(11,22,33), ]
+score_table$RK = as.numeric(score_table$RK)
+score_table$GP = as.numeric(score_table$GP)
+score_table$MPG = as.numeric(score_table$MPG)
+score_table$PTS = as.numeric(score_table$PTS)
+score_table$FGM.FGA = as.character(score_table$FGM.FGA)
+score_table$FG. = as.numeric(score_table$FG.)
+score_table$X3PM.3PA = as.character(score_table$X3PM.3PA)
+score_table$X3P. = as.numeric(score_table$X3P.)
+score_table$FTM.FTA = as.character(score_table$FTM.FTA)
+score_table$FT. = as.numeric(score_table$FT.)
+score_table$PLAYER = as.factor(score_table$PLAYER)
+score_table$TEAM = as.factor(score_table$TEAM)
+score_table$RK[is.na(score_table$RK)] = c(16,19,24,29,33,40)
+DT::datatable(score_table,rownames = F)
+```

@@ -1,5 +1,5 @@
 ---
-title: Blogs
+title: Housing Study
 author: Aman Maru
 date: '2019-01-04'
 slug: blogs
