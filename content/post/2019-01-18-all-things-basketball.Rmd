@@ -42,3 +42,10 @@ score_table$TEAM = as.factor(score_table$TEAM)
 score_table$RK[is.na(score_table$RK)] = c(16,19,24,29,33,40)
 DT::datatable(score_table,rownames = F)
 ```
+
+```{r}
+hardenimg <- c('<img src="harden.png" height="52"></img>')
+score_table$images <- hardenimg
+DT::datatable(score_table,escape = F)
+```
+
