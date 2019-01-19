@@ -81,5 +81,5 @@ hardenimg <- c('<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/p
 )
 score_table$images <- hardenimg
 score_table_reordered <- score_table[,c(13,1:12)]
-DT::datatable(score_table_reordered,escape = F,rownames = F)
+DT::datatable(score_table_reordered,escape = F,rownames = F,width='50%')
 ```
