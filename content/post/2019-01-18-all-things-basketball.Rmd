@@ -40,46 +40,6 @@ score_table$FT. = as.numeric(score_table$FT.)
 score_table$PLAYER = as.factor(score_table$PLAYER)
 score_table$TEAM = as.factor(score_table$TEAM)
 score_table$RK[is.na(score_table$RK)] = c(16,19,24,29,33,40)
-hardenimg <- c('<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3992.png&w=350&h=254" height="52"></img>','<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3975.png&w=350&h=254" height="52"></img>','<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3202.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6450.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3059318.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4251.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6606.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3989.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6479.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6580.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136193.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064440.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6442.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136195.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6475.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3468.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3978.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3908809.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3995.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4237.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6440.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2490149.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2983.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3945274.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6478.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2990984.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3195.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3112335.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6430.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2528210.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3428.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2527963.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3134907.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3456.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2799.png&w=350&h=254" height="52"></img>',
-'<img src="http://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3936299.png&w=350&h=254" height="52"></img>'
-)
-score_table$images <- hardenimg
-score_table_reordered <- score_table[,c(13,1:12)]
-DT::datatable(score_table_reordered,escape = F,rownames = F,width='50%')
+score_table <- score_table[,c(2,3,6,8,10,12)]
+DT::datatable(score_table,escape = F,rownames = F)
 ```
