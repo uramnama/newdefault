@@ -14,7 +14,7 @@ tags:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Top 40 NBA Scorers 
+## Top 40 NBA Scorers 
 **2018-2019**
 ```{r scorers,echo=FALSE,warning=FALSE,error=FALSE,message=FALSE}
 library(rvest)
