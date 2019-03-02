@@ -7,8 +7,6 @@ theme = "hugo-travelify-theme"
 GoogleAnalytics = "" # Add your own Google analytics code here in the format UA-XXXXXXXX-X
 canonifyURLs = true
 # rssURI = "feed/" #deprecated feature
-#IGNORE
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     # Tell me who you are
